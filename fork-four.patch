@@ -1,0 +1,27 @@
+--- init-rdahead-14/init-rdahead.c~	2017-05-22 00:49:57.000000000 +0000
++++ init-rdahead-14/init-rdahead.c	2017-05-22 01:01:22.018282891 +0000
+@@ -26,6 +26,8 @@
+ #include "hyperv.h"
+ #endif
+ 	NULL,
++	NULL,
++	NULL,
+ 	NULL
+ };
+ 
+@@ -70,10 +72,13 @@
+ #endif
+ 		pid = fork();
+ 		if (pid > 0)
+-			offset = 1;
++			offset += 2;
++		pid = fork();
++		if (pid > 0)
++			offset += 1;
+ 
+ 		DEBUG_PRINT("readahead files:\n");
+-		for (i = offset; ra_fns[i]; i+= 2) {
++		for (i = offset; ra_fns[i]; i+= 4) {
+ 			DEBUG_PRINT("%s\n", ra_fns[i]);
+ 			if (stat(ra_fns[i], &st) < 0) {
+ 				DEBUG_PRINT("fstat failed on %s\n", ra_fns[i]);
