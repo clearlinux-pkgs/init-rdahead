@@ -4,7 +4,7 @@
 #
 Name     : init-rdahead
 Version  : 17
-Release  : 17
+Release  : 18
 URL      : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-17.tar.gz
 Source0  : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-17.tar.gz
 Summary  : No detailed summary available
