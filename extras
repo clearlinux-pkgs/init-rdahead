@@ -1,0 +1,3 @@
+/usr/lib/systemd/system/multi-user.target.wants/initra.service
+/usr/lib/systemd/system/initra.service
+/usr/bin/initra-desktop
