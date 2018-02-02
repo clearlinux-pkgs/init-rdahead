@@ -4,7 +4,7 @@
 #
 Name     : init-rdahead
 Version  : 20
-Release  : 24
+Release  : 25
 URL      : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-20.tar.gz
 Source0  : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-20.tar.gz
 Source1  : initra.service
