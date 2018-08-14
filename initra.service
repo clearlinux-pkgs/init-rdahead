@@ -1,8 +1,0 @@
-[Unit]
-Description=Desktop Read Ahead
-
-[Service]
-ExecStart=/usr/bin/initra-desktop
-
-[Install]
-WantedBy=multi-user.target

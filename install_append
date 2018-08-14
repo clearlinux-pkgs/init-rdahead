@@ -1,2 +1,0 @@
-mkdir -p %{buildroot}/usr/lib/systemd/system/multi-user.target.wants/
-ln -s ../initra.service  %{buildroot}/usr/lib/systemd/system/multi-user.target.wants/initra.service
