@@ -4,7 +4,7 @@
 #
 Name     : init-rdahead
 Version  : 24
-Release  : 30
+Release  : 31
 URL      : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-24.tar.gz
 Source0  : http://localhost/cgit/projects/init-rdahead/snapshot/init-rdahead-24.tar.gz
 Summary  : No detailed summary available
